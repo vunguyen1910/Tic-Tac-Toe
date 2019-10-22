@@ -20,3 +20,53 @@
 .App-link {
   color: #09d3ac;
 }
+.board{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  margin-top: 20px;
+
+}
+.square{
+  height: 190px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+.O{
+  font-size: 100px;
+  font-weight: 5px;
+  color: red;
+}
+.X{
+  font-size: 100px;
+  font-weight: 5px;
+  color: blue;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.result{
+  text-align: center;
+  margin-top: 50px;
+}
+.textResult{
+  font-size: 40px;
+  font-weight: 10px;
+  color: red;
+}
+.popResult{
+  width: 300px;
+  height: 300px;
+}
+.nextPlayer{
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 10px;
+  color: blue;
+}
