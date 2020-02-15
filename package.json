@@ -10,7 +10,7 @@
     "react-facebook-login": "^4.1.1",
     "react-modal": "^3.10.1",
     "react-scripts": "3.2.0",
-    "yarn": "^1.19.1"
+    "yarn": "^1.22.0"
   },
   "scripts": {
     "start": "HTTPS=true react-scripts start",
